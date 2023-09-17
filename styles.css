@@ -1,35 +1,32 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  /* Basic styling for the sidebar */
+.sidebar-link{
+    padding-top: 50%;
 }
 
-.sidebar {
+  #sidebar {
     height: 100%;
     width: 250px;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #333;
-    color: #fff;
     padding-top: 20px;
 }
 
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar li {
-    padding: 10px;
-}
-
-.sidebar a {
+#sidebar a {
+    padding: 10px 20px;
     text-decoration: none;
+    font-size: 18px;
     color: #fff;
+    display: block;
 }
 
-.content {
-    margin-left: 260px; /* Adjust based on sidebar width */
+#sidebar a:hover {
+    background-color: #555;
+}
+
+/* Content container */
+#content {
+    margin-left: 260px; /* Adjust based on your sidebar width */
     padding: 20px;
 }
