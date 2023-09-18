@@ -1,9 +1,9 @@
 <?php
 // Database connection settings
-$hostname = "your_database_hostname";
-$username = "your_database_username";
-$password = "your_database_password";
-$database = "your_database_name";
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$database = "expensetracker";
 
 // Create a database connection
 $conn = new mysqli($hostname, $username, $password, $database);
